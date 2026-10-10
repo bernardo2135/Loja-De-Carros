@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #d71920;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+button, .botao {
+    background-color: #d71920;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+header button {
+    background-color: white;
+    color: #222;
+}
+
+.inicio {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #ddd;
+}
+
+.inicio h2 {
+    margin-bottom: 15px;
+}
+
+.inicio p {
+    margin-bottom: 25px;
+}
+
+.carros {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.carros h2 {
+    margin-bottom: 30px;
+}
+
+.lista-carros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0002;
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 15px 0;
+}
+
+.card p {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #d71920;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    line-height: 1.8;
+}
+
+/* Modo escuro */
+
+body.escuro {
+    background-color: #181818;
+    color: white;
+}
+
+body.escuro .inicio {
+    background-color: #292929;
+}
+
+body.escuro .card {
+    background-color: #303030;
+    color: white;
+}
+
+body.escuro header button {
+    background-color: #333;
+    color: white;
+}
+
+body.escuro .botao {
+    color: white;
+}

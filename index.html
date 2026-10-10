@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoTop - Venda de Carros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AutoTop</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#carros">Carros</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <button id="tema">🌙 Dark Mode</button>
+    </header>
+
+    <section class="inicio" id="inicio">
+        <h2>Encontre o carro ideal para você!</h2>
+        <p>Os melhores carros com os melhores preços.</p>
+        <a href="#carros" class="botao">Ver carros</a>
+    </section>
+
+    <section class="carros" id="carros">
+        <h2>Nossos carros</h2>
+
+        <div class="lista-carros">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600"
+                     alt="Carro esportivo">
+                <h3>Carro Esportivo</h3>
+                <p>R$ 85.000</p>
+                <button onclick="comprar('Carro Esportivo')">
+                    Tenho interesse
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=600"
+                     alt="Carro Chevrolet">
+                <h3>Carro Premium</h3>
+                <p>R$ 120.000</p>
+                <button onclick="comprar('Carro Premium')">
+                    Tenho interesse
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600"
+                     alt="Carro de luxo">
+                <h3>Carro de Luxo</h3>
+                <p>R$ 150.000</p>
+                <button onclick="comprar('Carro de Luxo')">
+                    Tenho interesse
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>AutoTop - Sua próxima conquista começa aqui!</p>
+        <p>Contato: contato@autotop.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
